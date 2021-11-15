@@ -57,11 +57,11 @@ export const Cards = () => {
     <Form className="d-flex">
       <FormControl
         type="search"
-        placeholder="Search"
+        placeholder="Search  (Try to type in the exact name of the book you want to search)"
         className="searchbox"
         aria-label="Search"
        onChange={event =>{setSearchTerm(event.target.value)} }/>
-      <Button variant="outline-success">Search</Button>
+      <Button variant="outline-success" type="submit">Search</Button>
       </Form>
       {cardInfo.filter((card)=> {
         if(searchTerm === "") {

@@ -11,7 +11,7 @@ export const Contribute = () => {
         <h6> 3. Click on Submit</h6>
         <h6>4. The book will be verified by admin and will be published</h6>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScdc8hEmI3YZM38VdwouGIxnkAoD9m3AAottpO7tGKdEwh0MA/viewform?usp=sf_link" target="_blank" rel="noreferrer"> 
-        <Button className="contribute" onClick="Cont()"  type="button">
+        <Button className="contribute" onClick=""  type="button">
           Contribute
         </Button>
         
