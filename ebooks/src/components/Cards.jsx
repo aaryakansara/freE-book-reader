@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import {Card, Button, Row, Col, Form, FormControl} from "react-bootstrap";
-import "./complete.css";
+import "./Styles.css";
 
 
 
@@ -69,6 +69,7 @@ export const Cards = () => {
         }else if(card.title.toLowerCase().includes(searchTerm.toLowerCase())){
           return card.title;
         }
+        return 0;
       }).map((card,key)=>{ 
         return (
         <>

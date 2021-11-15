@@ -4,7 +4,7 @@ export const CreateAccount =()=>{
     return(
       
         <>
-           <Form className="account">
+           <Form className="create">
   <Form.Group className="mb-3" controlId="formBasicName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="name" placeholder="Enter Your Name" />

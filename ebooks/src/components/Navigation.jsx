@@ -10,6 +10,7 @@ export const Navigation = () => {
           <Nav.Link href="about"> About </Nav.Link>
           <Nav.Link href="categories"> Categories </Nav.Link>
           <Nav.Link href="contribute"> Contribute </Nav.Link>
+          <Nav.Link href="create"> Account </Nav.Link>
           
      <a href="login"> <FaUserAlt className="login-icon"/></a>
         </Nav>
