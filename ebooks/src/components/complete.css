@@ -1,0 +1,93 @@
+.text-center {
+    margin: 30px 40px;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    margin: 30px 40px;
+}
+
+.cards {
+    margin: 20px 10px;
+}
+
+.card-button {
+    background-color: black !important;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.searchbox {
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.bg-dark {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.navbar-brand {
+    color: crimson !important;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.me-auto {
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.outline {
+    margin: 0px 40px;
+}
+
+.form-style {
+    margin: 100px 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.file {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-icon {
+    font-size: 50px;
+    margin-left: 680px;
+    vertical-align: middle;
+    color: black !important;
+}
+
+.d-flex {
+    margin: auto;
+}
+
+.contribute {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    margin: 150px 80px;
+}
