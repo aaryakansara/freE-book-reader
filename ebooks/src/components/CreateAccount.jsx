@@ -5,7 +5,9 @@ export function CreateAccount() {
   return (
 
     <>
-      <Form className="create">
+     <Form className="account">
+     
+     <h1>____Create your freE-Account____</h1>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Name</Form.Label>
           <Form.Control type="name" placeholder="Enter Your Name" />
@@ -13,16 +15,16 @@ export function CreateAccount() {
 
         <Form.Group className="mb-3" controlId="formBasicPreference">
           <Form.Label>Preferences</Form.Label>
-          <Form.Control type="preference" placeholder="Select any of your three preferences" />
+          <Form.Control type="preference" placeholder="Select any three of your preferences" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPreference">
-          <Form.Label>Preferences 2</Form.Label>
+          <Form.Label>Preference 2</Form.Label>
           <Form.Control type="preference" placeholder="Preference 2" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPreference">
-          <Form.Label>Preferences 3</Form.Label>
+          <Form.Label>Preference 3</Form.Label>
           <Form.Control type="preference" placeholder="Preference 3" />
         </Form.Group>
 
@@ -40,10 +42,11 @@ export function CreateAccount() {
           <Form.Label>Re-enter Password</Form.Label>
           <Form.Control type="password" placeholder="Re-enter your password" />
         </Form.Group>
-
-        <Button variant="primary" type="submit">
+        
+        <Button className="creaccmain" variant="primary" type="submit">
           Create my freE-Account
         </Button>
+        
       </Form>
     </>
   );

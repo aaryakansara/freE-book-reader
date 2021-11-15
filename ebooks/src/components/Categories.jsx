@@ -17,9 +17,9 @@ export const Categories = () => {
       link: "",
     },
     {
-      image: "./cats/literature.png",
-      title: "English-Literature",
-      link: "",
+        image: "./cats/suspense.png",
+        title: "Suspense",
+        link: "",
     },
     {
       image: "./cats/sci-fiction.png",
@@ -32,21 +32,51 @@ export const Categories = () => {
       link: "",
     },
     {
+        image: "./cats/horror.png",
+        title: "Horror",
+        link: "",
+    },
+    {
+        image: "./cats/drama.png",
+        title: "Drama",
+        link: "",
+    },
+    {
       image: "./cats/thriller.png",
       title: "Thriller",
       link: "",
     },
     {
-      image: "./cats/suspense.png",
-      title: "Suspense",
+        image: "./cats/non-fi.png",
+        title: "Non-Fiction",
+        link: "",
+    }, 
+    {
+        image: "./cats/geology.png",
+        title: "Geology",
+        link: "",
+    },
+    {
+        image: "./cats/history.png",
+        title: "History",
+        link: "",
+    },
+    {
+      image: "./cats/poetry.png",
+      title: "Poetry",
+      link: "",
+  },
+    {
+      image: "./cats/literature.png",
+      title: "English-Literature",
       link: "",
     },
     {
-      image: "./cats/drama.png",
-      title: "Drama",
+      image: "./cats/fantasy.png",
+      title: "Fantasy",
       link: "",
     },
-    
+
   ];
 
   
@@ -81,7 +111,7 @@ export const Categories = () => {
             <Card.Title className="card-title">{card.title}</Card.Title>
             <Card.Text>{card.text}</Card.Text>
             <a href={card.link}>
-              <Button className="card-button">Check Out</Button>
+              <Button className="cat-button">Check Out</Button>
             </a>
           </Card.Body>
         </Card>

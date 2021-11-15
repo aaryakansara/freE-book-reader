@@ -4,47 +4,47 @@ import "./Styles.css";
 
 
 
-export const Cards = () => {
-  const cardInfo = [
+export const Loggedinhome = () => {
+  const logInfo = [
     {
       image: "./books/dotnet.png",
       title: ".NET Framework",
-      link: "/login",
+      link: "https://books.goalkicker.com/DotNETFrameworkBook/DotNETFrameworkNotesForProfessionals.pdf",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "/login",
+      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "/login",
+      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "/login",
+      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "/login",
+      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
     },
     {
       image: "./books/dotnet.png",
       title: ".NET Framework",
-      link: "/login",
+      link: "https://books.goalkicker.com/DotNETFrameworkBook/DotNETFrameworkNotesForProfessionals.pdf",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "/login",
+      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "/login",
+      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
     },
     
   ];
@@ -63,7 +63,7 @@ export const Cards = () => {
        onChange={event =>{setSearchTerm(event.target.value)} }/>
       <Button variant="outline-success" type="submit">Search</Button>
       </Form>
-      {cardInfo.filter((card)=> {
+      {logInfo.filter((card)=> {
         if(searchTerm === "") {
           return card.title ;
         }else if(card.title.toLowerCase().includes(searchTerm.toLowerCase())){

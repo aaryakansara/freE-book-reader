@@ -4,24 +4,34 @@ export const Login=()=>{
     return(
         <>
            <Form className="form-style">
+  <h2>Log in here to download books</h2>
   <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email</Form.Label>
-    <Form.Control type="Email" placeholder="Enter email" />
+    <Form.Label>Your Email</Form.Label>
+    <Form.Control type="Email" placeholder="Enter your user Email ID" />
     
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
-    <Form.Control  type="password" placeholder="Enter password" />
+    <Form.Control  type="password" placeholder="Enter your password" />
   </Form.Group>
-  
-  <Button variant="primary" type="submit">
+  <a href="/loggedin" >
+  <Button className="log" variant="primary" type="button">
     Login
   </Button>
+  </a>
+  <Button className="fog" variant="primary" type="submit">
+    Forgot Password
+  </Button>
 
-  <Button variant="primary" type="submit" onClick="CreateAccount()" >
+  <h2>Don't have an account? Create an account for free</h2>
+  
+  <a href="/account" >
+  <Button className="creacc" variant="primary" type="button" onClick="CreateAccount()" >
     Create  a freE-Account
   </Button>
+  </a>
+  
 </Form>
 </>
     )
