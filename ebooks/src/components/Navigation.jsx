@@ -7,8 +7,9 @@ export const Navigation = () => {
       <Container className="outline">
         <Navbar.Brand href="home">freE-book reader</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="about"> About </Nav.Link>
+          
           <Nav.Link href="categories"> Categories </Nav.Link>
+          <Nav.Link href="about"> About </Nav.Link>
           <Nav.Link href="contribute"> Contribute </Nav.Link>
           <Nav.Link href="create"> Account </Nav.Link>
           
