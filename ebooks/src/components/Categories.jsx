@@ -72,10 +72,62 @@ export const Categories = () => {
       link: "",
     },
     {
-      image: "./cats/fantasy.png",
-      title: "Fantasy",
+      image: "./cats/arts.png",
+      title: "Arts",
       link: "",
     },
+    {
+      image: "./cats/comics.png",
+      title: "Comics",
+      link: "",
+    },
+    {
+      image: "./cats/biography.png",
+      title: "Biography",
+      link: "",
+    },
+    {
+      image: "./cats/astro.png",
+      title: "Astronomy",
+      link: "",
+    },
+    {
+      image: "./cats/bandeco.png",
+      title: "Business & Economics",
+      link: "",
+    },
+    {
+      image: "./cats/crime.png",
+      title: "Crime",
+      link: "",
+    },
+    {
+      image: "./cats/science.png",
+      title: "Science",
+      link: "",
+    },
+    {
+      image: "./cats/guides.png",
+      title: "Guides",
+      link: "",
+    },
+    
+    {
+      image: "./cats/sports.png",
+      title: "Sports",
+      link: "",
+    },
+    {
+      image: "./cats/psych.png",
+      title: "Psychology",
+      link: "",
+    },
+    {
+      image: "./cats/travel.png",
+      title: "Travel",
+      link: "",
+    },
+
 
   ];
 
@@ -105,7 +157,7 @@ export const Categories = () => {
         <>
       {
       <Col md="3">
-        <Card style={{ width: "18rem" }} className="cards">
+        <Card style={{ width: "18rem" }} className="cats">
           <Card.Img variant="top" src={card.image} />
           <Card.Body>
             <Card.Title className="card-title">{card.title}</Card.Title>

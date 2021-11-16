@@ -15,11 +15,14 @@ export const Login=()=>{
     <Form.Label>Password</Form.Label>
     <Form.Control  type="password" placeholder="Enter your password" />
   </Form.Group>
-  <a href="/loggedin" >
-  <Button className="log" variant="primary" type="button">
+  
+  
+  <a href="/loggedin" ><Button className="log" variant="primary" type="button" onClick="">
     Login
   </Button>
   </a>
+  
+
   <a href="/forgot">
   <Button className="fog" variant="primary" type="button">
     Forgot Password
