@@ -61,7 +61,7 @@ export const Cards = () => {
         className="searchbox"
         aria-label="Search"
        onChange={event =>{setSearchTerm(event.target.value)} }/>
-      <Button variant="outline-success" type="submit">Search</Button>
+      <Button variant="outline-success" type="button">Search</Button>
       </Form>
       {cardInfo.filter((card)=> {
         if(searchTerm === "") {

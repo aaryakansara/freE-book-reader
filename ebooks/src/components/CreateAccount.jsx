@@ -13,6 +13,11 @@ export function CreateAccount() {
           <Form.Control type="name" placeholder="Enter Your Name" />
         </Form.Group>
 
+        <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Label>Profession</Form.Label>
+          <Form.Control type="name" placeholder="You can select your profession here so that we can recommend you related books" />
+        </Form.Group>
+
         <Form.Group className="mb-3" controlId="formBasicPreference">
           <Form.Label>Preferences</Form.Label>
           <Form.Control type="preference" placeholder="Select any three of your preferences" />
@@ -27,6 +32,8 @@ export function CreateAccount() {
           <Form.Label>Preference 3</Form.Label>
           <Form.Control type="preference" placeholder="Preference 3" />
         </Form.Group>
+
+        
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
