@@ -20,9 +20,13 @@ export const Login=()=>{
     Login
   </Button>
   </a>
-  <Button className="fog" variant="primary" type="submit">
+  <a href="/forgot">
+  <Button className="fog" variant="primary" type="button">
     Forgot Password
   </Button>
+  </a>
+  </Form>
+  <Form className="form-style2">
 
   <h2>Don't have an account? Create an account for free</h2>
   

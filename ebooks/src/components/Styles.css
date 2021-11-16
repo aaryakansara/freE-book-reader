@@ -60,9 +60,16 @@
 }
 
 .form-style {
-    margin: 50px 350px;
+    margin: 20px 350px;
     padding: 30px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.form-style2 {
+    margin: 0px 350px;
+    padding: 30px 20px;
+    border-radius: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -110,12 +117,14 @@
 
 .creacc {
     background-color: black !important;
-    margin-left: 5px;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
 .log {
     background-color: black !important;
+    padding: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,4 +140,34 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fogpass {
+    margin: 50px 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.backhome {
+    display: block;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instructions {
+    margin: 120px 80px;
+}
+
+.mb-2 {
+    width: 30%;
+}
+
+.mb-1 {
+    width: 30%;
+}
+
+.mb-0 {
+    width: 70%;
 }

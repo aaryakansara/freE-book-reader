@@ -9,44 +9,45 @@ export function CreateAccount() {
      
      <h1>____Create your freE-Account____</h1>
         <Form.Group className="mb-3" controlId="formBasicName">
-          <Form.Label>Name</Form.Label>
+          <Form.Label><h6>Name</h6></Form.Label>
           <Form.Control type="name" placeholder="Enter Your Name" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicText">
-          <Form.Label>Profession</Form.Label>
+          <Form.Label><h6>Profession</h6></Form.Label>
           <Form.Control type="name" placeholder="You can select your profession here so that we can recommend you related books" />
         </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicPreference">
+        
+        <Form.Group className="mb-0" controlId="formBasicPreference">
           <Form.Label>Preferences</Form.Label>
           <Form.Control type="preference" placeholder="Select any three of your preferences" />
         </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicPreference">
+        
+        <Form.Group className="mb-2" controlId="formBasicPreference">
           <Form.Label>Preference 2</Form.Label>
           <Form.Control type="preference" placeholder="Preference 2" />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPreference">
+        <Form.Group className="mb-1" controlId="formBasicPreference">
           <Form.Label>Preference 3</Form.Label>
           <Form.Control type="preference" placeholder="Preference 3" />
         </Form.Group>
+        
 
         
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email</Form.Label>
+          <Form.Label><h6>Email</h6></Form.Label>
           <Form.Control type="Email" placeholder="Enter email" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
+          <Form.Label><h6>Password</h6></Form.Label>
           <Form.Control type="password" placeholder="Enter a password" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Re-enter Password</Form.Label>
+          <Form.Label><h6>Re-enter Password</h6></Form.Label>
           <Form.Control type="password" placeholder="Re-enter your password" />
         </Form.Group>
         

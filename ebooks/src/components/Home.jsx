@@ -7,6 +7,8 @@ import { Login } from './Login';
 import { CreateAccount } from "./CreateAccount";
 import { Categories } from "./Categories";
 import { Loggedinhome } from "./Loggedinhome";
+import { Fogpass } from "./Fogpass";
+import { Foginst } from "./Foginst";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export const Home = () => {
@@ -35,6 +37,12 @@ export const Home = () => {
       </Route>    
       <Route path="/account">
         <CreateAccount />
+      </Route>
+      <Route path="/forgot">
+        <Fogpass />
+      </Route>
+      <Route path="/foginst">
+        <Foginst />
       </Route>
       
       </Switch>
