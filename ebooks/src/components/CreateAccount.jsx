@@ -7,7 +7,7 @@ export function CreateAccount() {
     <>
      <Form className="account">
      
-     <h1>____Create your freE-Account____</h1>
+     <h1>::::::::Create your freE-Account:::::::</h1>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label><h6>Name</h6></Form.Label>
           <Form.Control type="name" placeholder="Enter Your Name" />
@@ -20,22 +20,36 @@ export function CreateAccount() {
         
         <Form.Group className="mb-0" controlId="formBasicPreference">
           <Form.Label>Preferences</Form.Label>
-          <Form.Control type="preference" placeholder="Select any three of your preferences" />
+          
+          <li><select name="preferences">
+            <option selected="" value="Default">(Please select any of your three best preferences)</option>
+            <option value="Rom">Romance</option>
+            <option value="Sci-fi">Science-Fiction</option>
+            <option value="Thr">Thriller</option>
+            <option value="Adv">Adventure</option>
+            <option value="Hor">Horror</option>
+            <option value=""></option>
+          </select></li>
+
+          <li><select name="preferences">
+            <option selected="" value="Default">(----------------Second Preference----------------)</option>
+            <option value="Rom">Romance</option>
+            <option value="Sci-fi">Science-Fiction</option>
+            <option value="Thr">Thriller</option>
+            <option value="Adv">Adventure</option>
+            <option value="Hor">Horror</option>
+          </select></li>
+
+          <li><select name="preferences">
+            <option selected="" value="Default">((----------------Third Preference-----------------))</option>
+            <option value="Rom">Romance</option>
+            <option value="Sci-fi">Science-Fiction</option>
+            <option value="Thr">Thriller</option>
+            <option value="Adv">Adventure</option>
+            <option value="Hor">Horror</option>
+          </select></li>
         </Form.Group>
         
-        <Form.Group className="mb-2" controlId="formBasicPreference">
-          <Form.Label>Preference 2</Form.Label>
-          <Form.Control type="preference" placeholder="Preference 2" />
-        </Form.Group>
-
-        <Form.Group className="mb-1" controlId="formBasicPreference">
-          <Form.Label>Preference 3</Form.Label>
-          <Form.Control type="preference" placeholder="Preference 3" />
-        </Form.Group>
-        
-
-        
-
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label><h6>Email</h6></Form.Label>
           <Form.Control type="Email" placeholder="Enter email" />
