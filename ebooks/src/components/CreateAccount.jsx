@@ -8,7 +8,7 @@ export function CreateAccount() {
      <Form className="account">
      
      
-     <h1>::::::::Create your freE-Account:::::::</h1>
+     <h1 align="center">Create your freE-Account</h1>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label><h6>Name</h6></Form.Label>
           <Form.Control type="name" placeholder="Enter Your Name" required />
@@ -24,8 +24,8 @@ export function CreateAccount() {
         <Form.Group className="mb-0" controlId="formBasicPreference">
           <Form.Label>Preferences</Form.Label>
           
-          <li><select name="preferences">
-            <option selected="" value="Default">(Please select any of your three best preferences)</option>
+          <li>1.<select name="preferences">
+            <option selected="" value="Default" align="center">Select your preferences here</option>
             <option value="Adv">Adventure</option>
             <option value="Art">Art</option>
             <option value="Astro">Astronomy</option>
@@ -36,8 +36,8 @@ export function CreateAccount() {
             <option value="Dra">Drama</option>
           </select></li>
 
-          <li><select name="preferences">
-            <option selected="" value="Default">(----------------Second Preference----------------)</option>
+          <li>2.<select name="preferences">
+            <option selected="" value="Default">Select your preferences here</option>
             <option value="Fic">Fiction</option>
             <option value="Geo">Geology</option>
             <option value="Guide">Guides</option>
@@ -48,8 +48,8 @@ export function CreateAccount() {
             <option value="Poet">Poetry</option>
           </select></li>
 
-          <li><select name="preferences">
-            <option selected="" value="Default">((----------------Third Preference-----------------))</option>
+          <li>3.<select name="preferences">
+            <option selected="" value="Default">Select your preferences here</option>
             <option value="Pysch">Psychology</option>
             <option value="Rom">Romance</option>
             <option value="Sci">Science</option>
