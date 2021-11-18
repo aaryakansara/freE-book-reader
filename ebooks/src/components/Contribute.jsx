@@ -10,7 +10,7 @@ export const Contribute = () => {
         <h6>2. Fill the form details like Book cover Image, Title and Pdf of book</h6>
         <h6> 3. Click on Submit</h6>
         <h6>4. The book will be verified by admin and will be published</h6>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScdc8hEmI3YZM38VdwouGIxnkAoD9m3AAottpO7tGKdEwh0MA/viewform?usp=sf_link" target="_blank" rel="noreferrer"> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9Xdx_SVEf4shI8iT0adTODG9i0BlXKXK1gmEcL6MzUBQ3oQ/viewform?usp=sf_link" target="_blank" rel="noreferrer"> 
         <Button className="contribute" onClick=""  type="button">
           Contribute
         </Button>

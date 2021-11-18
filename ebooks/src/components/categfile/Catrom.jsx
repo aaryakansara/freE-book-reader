@@ -7,13 +7,13 @@ import "./Styles.css";
 export const Catrom = () => {
   const catromInfo = [
     {
-      image: "./books/romance.png",
+      image: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1549386174-514wNQ0vMgL.jpg?crop=1.00xw:0.944xh;0,0&resize=480:*",
       title: "Romance 1",
       link: "https://drive.google.com/file/d/1XVFUMx0UOt7iWt8u5x65F6sVCd7PN2nl/view?usp=sharing",
     },
     
     {
-      image: "./books/romance.png",
+      image: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1549386187-51y1omNT91L.jpg",
       title: "Romance 2",
       link: "https://drive.google.com/file/d/1Qp7Fk2INX8XTkYBn6BeNMk41UkJojus0/view?usp=sharing",
     },
