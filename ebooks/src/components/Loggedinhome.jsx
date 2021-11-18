@@ -9,42 +9,42 @@ export const Loggedinhome = () => {
     {
       image: "./books/dotnet.png",
       title: ".NET Framework",
-      link: "https://books.goalkicker.com/DotNETFrameworkBook/DotNETFrameworkNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1ZbNSDHjELJJmEuvCpF6FbO9TKZQhVUHQ/view?usp=sharing",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1FGovYPeJfrzk16FfdIf8AGWAHPJ__6f4/view?usp=sharing",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1RGqcmShpU_hhIMXf3PO7OdURvsnz0UhJ/view?usp=sharing",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1FGovYPeJfrzk16FfdIf8AGWAHPJ__6f4/view?usp=sharing",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1RGqcmShpU_hhIMXf3PO7OdURvsnz0UhJ/view?usp=sharing",
     },
     {
       image: "./books/dotnet.png",
       title: ".NET Framework",
-      link: "https://books.goalkicker.com/DotNETFrameworkBook/DotNETFrameworkNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1ZbNSDHjELJJmEuvCpF6FbO9TKZQhVUHQ/view?usp=sharing",
     },
     {
       image: "./books/Android.png",
       title: "Android",
-      link: "https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1RGqcmShpU_hhIMXf3PO7OdURvsnz0UhJ/view?usp=sharing",
     },
     {
       image: "./books/Algorithms.png",
       title: "Algorithms",
-      link: "https://books.goalkicker.com/AlgorithmsBook/AlgorithmsNotesForProfessionals.pdf",
+      link: "https://drive.google.com/file/d/1FGovYPeJfrzk16FfdIf8AGWAHPJ__6f4/view?usp=sharing",
     },
     {
       image: "./books/adventure.png",
