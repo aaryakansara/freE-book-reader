@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catthrill = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/thriller.png",
+      title: "Thriller 1",
+      link: "https://drive.google.com/file/d/1OS9qoKDaZu4x8owk8VX__USaO7sh2V59/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/thriller.png",
+      title: "Thriller 2",
+      link: "https://drive.google.com/file/d/1R9yTZ1Nk5TQEtuPsgtZhbzO9pLhZI-ZX/view?usp=sharing",
     },
     
   ];

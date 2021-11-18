@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Cathorror = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/horror.png",
+      title: "Horror 1",
+      link: "https://drive.google.com/file/d/1NYHnXBdUsbvdJ_oUbIv7vNCjhbOoN__5/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/horror.png",
+      title: "Horror 2",
+      link: "https://drive.google.com/file/d/15sCpwAqiyHKF-aFJBNrAjSk2FAYDdtEJ/view?usp=sharing",
     },
     
   ];

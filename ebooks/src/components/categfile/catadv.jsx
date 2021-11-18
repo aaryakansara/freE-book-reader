@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catadv = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/adventure.png",
+      title: "Adventure 1",
+      link: "https://drive.google.com/file/d/15KK3xNeGAgDd1z4pV3Qgb3fQuB79_7bg/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/adventure.png",
+      title: "Adventure 2",
+      link: "https://drive.google.com/file/d/1SOovhoTNzxgQTdDhc9NLh0tE6lymhmKo/view?usp=sharing",
     },
     
   ];
@@ -52,7 +52,7 @@ export const Catadv = () => {
             <Card.Title className="card-title">{card.title}</Card.Title>
             <Card.Text>{card.text}</Card.Text>
             <a href={card.link}>
-              <Button className="card-button">Download</Button>
+              <Button className="card-button" target="_blank" rel="noreferrer">Download</Button>
             </a>
           </Card.Body>
         </Card>

@@ -7,8 +7,8 @@ import "./Styles.css";
 export const Catcomic = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
+      image: "./books/spiderman.png",
+      title: "Spiderman",
       link: "/login",
     },
     

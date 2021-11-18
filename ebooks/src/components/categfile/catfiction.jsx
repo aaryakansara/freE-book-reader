@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catfiction = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/fiction.png",
+      title: "Fiction 1",
+      link: "https://drive.google.com/file/d/1nYbpDSawRFccQzp6HpTHQePqXKZ0f4jh/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/fiction.png",
+      title: "Fiction 2",
+      link: "https://drive.google.com/file/d/1W4PT6xFiAnCXMJKkcpdD6tHe8HrF0iKw/view?usp=sharing",
     },
     
   ];

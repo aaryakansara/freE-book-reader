@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catdrama = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/drama.png",
+      title: "Drama 1",
+      link: "https://drive.google.com/file/d/1Lbz9UWAETBqOiuUuX0a2_bfiB2VUIFb4/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/drama.png",
+      title: "Drama 2",
+      link: "https://drive.google.com/file/d/1gxZH8q8z5lxp80q_yLFaOEY8LOX8EekT/view?usp=sharing",
     },
     
   ];

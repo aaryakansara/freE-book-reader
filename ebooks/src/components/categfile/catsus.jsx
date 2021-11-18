@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catsus = () => {
   const cardInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/suspense.png",
+      title: "Suspense 1",
+      link: "https://drive.google.com/file/d/1or9n8Tbk_ERSz2YkHNZUOaZpm2hYk5RH/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/suspense.png",
+      title: "Suspense 2",
+      link: "https://drive.google.com/file/d/1HvoYWzfu037igDrIhNObHj6Be-PJ-XQe/view?usp=sharing",
     },
     
   ];

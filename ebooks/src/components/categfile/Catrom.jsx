@@ -7,15 +7,15 @@ import "./Styles.css";
 export const Catrom = () => {
   const catromInfo = [
     {
-      image: "./books/dotnet.png",
-      title: ".NET Framework",
-      link: "/login",
+      image: "./books/romance.png",
+      title: "Romance 1",
+      link: "https://drive.google.com/file/d/1XVFUMx0UOt7iWt8u5x65F6sVCd7PN2nl/view?usp=sharing",
     },
     
     {
-      image: "./books/Algorithms.png",
-      title: "Algorithms",
-      link: "/login",
+      image: "./books/romance.png",
+      title: "Romance 2",
+      link: "https://drive.google.com/file/d/1Qp7Fk2INX8XTkYBn6BeNMk41UkJojus0/view?usp=sharing",
     },
     
   ];
