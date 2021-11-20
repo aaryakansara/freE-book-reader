@@ -18,7 +18,7 @@ export function CreateAccount() {
 
         <Form.Group className="mb-3" controlId="formBasicText">
           <Form.Label><h6>Profession</h6></Form.Label>
-          <Form.Control type="name" placeholder="You can select your profession here so that we can recommend you related books" />
+          <Form.Control type="name" placeholder="You can type your profession here so that we can recommend you related books" />
         </Form.Group>
         
         <Form.Group className="mb-0" controlId="formBasicPreference">
