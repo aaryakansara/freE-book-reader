@@ -114,6 +114,13 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.admin {
+    margin: 20px 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 .cat-button {
     background-color: black !important;
     text-decoration: none;
@@ -188,4 +195,15 @@
 
 .cats {
     margin: 20px 10px;
+}
+
+.addbook {
+    margin-top: 30px;
+}
+
+.backtologgedin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -38px;
 }

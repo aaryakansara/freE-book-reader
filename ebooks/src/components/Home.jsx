@@ -5,6 +5,7 @@ import { Aboutus } from './Aboutus';
 import { Contribute } from './Contribute';
 import { Login } from './Login';
 import { CreateAccount } from "./CreateAccount";
+import { AdminLogin } from "./AdminLogin";
 import { Categories } from "./Categories";
 import { Loggedinhome } from "./Loggedinhome";
 import { Fogpass } from "./Fogpass";
@@ -64,6 +65,9 @@ export const Home = () => {
       </Route>    
       <Route path="/account">
         <CreateAccount />
+      </Route>
+      <Route path="/admin">
+        <AdminLogin />
       </Route>
       <Route path="/forgot">
         <Fogpass />

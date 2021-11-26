@@ -17,7 +17,7 @@ export const Login=()=>{
   </Form.Group>
   
   
-  <a href="/loggedin" ><Button className="log" variant="primary" type="button" onClick="">
+  <a href="/admin" ><Button className="log" variant="primary" type="button" onClick="">
     Login
   </Button>
   </a>
