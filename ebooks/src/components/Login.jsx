@@ -17,17 +17,22 @@ export const Login=()=>{
   </Form.Group>
   
   
-  <a href="/admin" ><Button className="log" variant="primary" type="button" onClick="">
+  <a href="/loggedin" ><Button className="log" variant="primary" type="button" onClick="">
     Login
   </Button>
   </a>
-  
+
+  <a href="/admin" ><Button className="adlog" variant="primary" type="button" onClick="">
+    Admin Login
+  </Button>
+  </a>
 
   <a href="/forgot">
   <Button className="fog" variant="primary" type="button">
     Forgot Password
   </Button>
   </a>
+
   </Form>
   <Form className="form-style2">
 
